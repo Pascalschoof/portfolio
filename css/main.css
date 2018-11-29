@@ -1,0 +1,137 @@
+/*------- GENERAL -------------*/
+body {
+    background-color: #272d2d;
+    color: #f2af29;
+    font-family: 'Amethysta', serif;
+    font-size: 19px;
+}
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 40px;
+}
+h2, h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+}
+h4 {
+    font-family: 'Amethysta', serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+span {
+    color: #235789;
+}
+
+/*------ GRID ---------*/
+.full-width {
+    width: 1200px;
+}
+.half-width {
+    float: left;
+    padding: 0 30px;
+    width: 540px;
+}
+.third-width {
+    float: left;
+    padding: 0 30px;
+    width: 340px;
+}
+
+/*------ height of sections---------*/
+header {
+    height: 700px;
+}
+#references {
+    height: 1350px;
+}
+#about {
+    height: 550px;
+}
+#contact {
+    height: 350px;
+}
+
+/*------ HEADER---------*/
+header {
+    background: url('../img/hero.png') no-repeat center center;
+    background-size: cover;
+}
+header h1 {
+    letter-spacing: 5px;
+    padding: 30px 0px;
+}
+header h1 a {
+    color: #f2af29;
+    text-decoration: overline;
+}
+nav {
+    float: right;
+    padding: 55px 25px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a {
+    color: #f2af29;
+    font-weight: bold;
+    padding-left: 60px;
+    text-decoration: none;
+}
+
+/*------ references---------*/
+#references h1{
+    text-align: center;
+}
+#references a{
+    color: #f2af29;
+    text-decoration: none;
+}
+#references .full-width {
+    clear: both;
+    padding: 40px 0;
+}
+#ref1, #ref3 {
+    text-align: left;
+}
+#ref2 {
+    text-align: right;
+}
+
+/*------ about---------*/
+#about h1{
+    padding-bottom: 40px;
+    text-align: center;
+}
+#about {
+    background: url('../img/coffee.png') no-repeat top right;
+    background-size: cover;
+}
+#about p{
+    text-align: justify;
+}
+
+/*------ contact ---------*/
+#contact h1, #contact h3, #contact p{
+    text-align: center;
+}
+#contact a{
+    color: #f2af29;
+    text-decoration: none;
+}
+#contact ul li{
+    display: inline-block;
+}
+#contact ul li a {
+    padding-left: 30px;
+}
+
+/*------ copyright ---------*/
+#copyright {
+    background-color: #235789;
+  }
+#copyright p{
+    font-size: 16px;
+    padding-right: 80px;
+    text-align: right;
+    text-transform: lowercase;
+}
